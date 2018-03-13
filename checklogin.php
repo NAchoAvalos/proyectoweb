@@ -31,17 +31,74 @@ if (!file_exists($carpeta)) {
 	    <head>
 	    	<link href="css/index.css" rel="stylesheet" media="screen">
 	    </head>
-	    <body>
+	    <body >
 	        <form action="#" method="post" enctype="multipart/form-data">
+	        	<table>
+	        	<tr>
+	        	<td>
+	        	<label>Nombre archivo</label>
+	        	</td>
+	        	<td>
+	        	<input type="text" name="nombre">
+	        	</td>
+	        	</tr>
+	        	<tr>
+	        		<td>
+	        	<label>Autor</label>
+	        	</td>
+	        	<td>
+	        	<input type="text" name="autor">
+	        	</td>
+	        	</tr>
+	        	<tr>
+	        		<td>
+	        	<label>Fecha</label>
+	        	</td>
+	        	<td>
+	        	<input type="text" name="fecha">
+	        	</td>
+	        	</tr>
+	        	<tr>
+	        		<td>
+	        	<label>Size</label>
+	        	</td>
+	        	<td>
+	        	<input type="text" name="size">
+	        	</td>
+	        	</tr>
+	        	<tr>
+	        		<td>
+	        	<label>Descripcion</label>
+	        	</td>
+	        	<td>
+	        	<input type="text" name="descripcion">
+	        	</td>
+	        	</tr>
+	        	<tr>
+	        	<td>
+	        	<label>Clasificacion</label>
+	        	</td>
+	        	<td>
+	        	<input type="text" name="clasificacion">
+	        	</td>
+	        	</tr>
+	        	<tr>
+	        	<td colspan="2">
 	            <input type="file"  name="archivo" id="archivo"></input>
 	            <input type="submit" class = "submit" value="Subir archivo"></input>
+	            </td>
+	            </tr>
+	            </table>
 	        </form>
 
 	        <div id="global">
   <div id="mensajes"> 
-  	<?php $archivo->carga_img($_SESSION['username']); 
+  	<table>
+  	  	<?php $archivo->carga_img($_SESSION['username']); 
   	//$archivo->validacion_usuario();
   	?>
+  	</table>
+
   </div>
 </div>
 	    </body>
