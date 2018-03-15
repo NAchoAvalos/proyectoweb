@@ -1,0 +1,116 @@
+input{
+   width: 200px;
+   height: 30px;
+   border-radius: 10px;
+   border: 1px solid black;
+
+   
+}
+
+h1{
+  font-size: 16px;
+  font-family: Arial;
+  text-align: left;
+}
+
+a{
+ font-size: 16px;
+  font-family: Arial;
+  text-align: right; 
+}
+
+body{
+   text-align: center;
+   width: 50%;
+   height: 80%;
+   border-radius: 10px;
+   border: 1px solid black; 
+   margin-left : auto;
+   margin-right : auto;
+   
+   padding: 10px 10px 10px 20px;
+}
+
+img{
+  margin: 25px 12.5px 25px 12.5px;
+}
+#global {
+	height: 50%;
+	width: 100%;
+	border: 1px solid #ddd;
+	background: #f1f1f1;
+	overflow-y: scroll;
+}
+#mensajes {
+	height: auto;
+}
+.texto {
+	padding:4px;
+	background:#fff;
+}
+.div-imagen {
+  display:inline-block;
+  position:relative;
+}
+
+.div-imagen > div {
+  position:absolute;
+  top:0;
+  left:0;
+  z-index:-1;
+  padding:10px;
+  margin:0;
+}
+
+.desvanecer:hover {
+  opacity: 0.07;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  -ms-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+
+.submit {
+   border-top: 1px solid #96d1f8;
+   background: #d065d6;
+   background: -webkit-gradient(linear, left top, left bottom, from(#453e9c), to(#d065d6));
+   background: -webkit-linear-gradient(top, #453e9c, #d065d6);
+   background: -moz-linear-gradient(top, #453e9c, #d065d6);
+   background: -ms-linear-gradient(top, #453e9c, #d065d6);
+   background: -o-linear-gradient(top, #453e9c, #d065d6);
+   padding: 6px 12px;
+   -webkit-border-radius: 18px;
+   -moz-border-radius: 18px;
+   border-radius: 18px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 17px;
+   font-family: Georgia, serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.submit:hover {
+   border-top-color: #763fa3;
+   background: #763fa3;
+   color: #91d98d;
+   }
+.submit:active {
+   border-top-color: #1b435e;
+   background: #1b435e;
+   }
+
+tr{
+  width: auto;
+  height: 20px;
+}   
+
+td{
+  width: 200px;
+  height: 30px;
+}
+
+
